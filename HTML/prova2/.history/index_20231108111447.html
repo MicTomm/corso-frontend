@@ -10,10 +10,7 @@
 <body>
   <h1>FORM</h1>
   <main>
-    <!-- method=POST è solo a scopo di esempio. la pagina si romperà non avendo un dummy server che gestisce la POST request-->
-    <!-- enctype valorizzato con multipart/form lo utilizzo per il file upload -->
-    <!-- enctype di default = application/x-www-form-urlencoded -->
-    <form action="#" method="POST" enctype="multipart/form-data">
+    <form action="#" method="POST">
       <section id="sezione-1">
         <p>
           <label for="full-name">Full Name</label>
@@ -37,29 +34,14 @@
           </select>
         </p>
         <p>
-        <h2>GENDER</h2>
+        <p>Please select your gender</p>
+        <input type="radio" id="M" name="gender" value="M">
+        <label for="M">M</label>
+        <input type="radio" id="F" name="gender" value="F">
+        <label for="F">F</label>
+        <input type="radio" id="O" name="gender" value="O">
+        <label for="O">O</label>
         <p>
-          <input type="radio" id="M" name="gender" value="M">
-          <label for="M">M</label>
-          <input type="radio" id="F" name="gender" value="F">
-          <label for="F">F</label>
-          <input type="radio" id="O" name="gender" value="O">
-          <label for="O">O</label>
-        </p>
-        <h2>SPORTS</h2>
-        </p>
-        <input type="checkbox" id="football" name="football">
-        <label for="football">football</label>
-        <input type="checkbox" id="volley" name="volley">
-        <label for="volley">volley</label>
-        <input type="checkbox" id="golf" name="golf">
-        <label for="golf">golf</label>
-        <input type="checkbox" id="hokey" name="hokey">
-        <label for="hokey">hokey</label>
-        <p>
-        <p>
-          <label for="image">User image</label>
-          <input type="file" id="image" name="image" required accept="image/jpg, image/png, image/jpeg">
         </p>
         <!-- 
           <p>
