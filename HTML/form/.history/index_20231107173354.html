@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="#" method="POST">
+    <section id="sezione-1">
+      <input type="hidden" value="<%= locals.csrfToken %>" name="_csrf">
+      <p>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </p>
+      <p>
+        <label for="confirm-email">Confirm your email</label>
+        <input type="email" id="confirm-email" name="confirm-email" required>
+      </p>
+      <p>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" minlength="6" required>
+      </p>
+    </section>
+    <hr>
+    <section id="sezione-2">
+      <p>
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" name="full-name" required>
+      </p>
+      <p>
+        <label for="street">Street</label>
+        <input type="text" id="street" name="street" required>
+      </p>
+      <p>
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" required>
+      </p>
+      <p>
+        <label for="postal-code">Postal Code</label>
+        <input type="text" id="postal-code" name="postal-code" minlength="5" maxlength="5" required>
+      </p>
+      <p>Please select your gender</p>
+      <input type="radio" id="M" name="maschio" value="M">
+      <label for="M">M</label>
+      <input type="radio" id="F" name="femmina" value="F">
+      <label for="F">F</label>
+    </section>
+    <hr />
+    <section id="privacy">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum repudiandae commodi non nobis. Aliquid id
+        nulla, iste odio harum qui debitis. Amet accusantium asperiores nostrum perspiciatis cum sunt, dignissimos sed.
+      </p>
+      <input type="checkbox" id="A" name="fav_language" value="M">
+      <label for="html">M</label>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla deleniti ducimus consectetur quisquam sed omnis
+        cum ab, molestias aspernatur tempora doloribus tenetur repellendus quidem blanditiis praesentium libero optio
+        consequuntur saepe!
+      </p>
+      <input type="checkbox" id="B" name="fav_language" value="F">
+      <label for="css">F</label>
+    </section>
+    <section id="interact">
+      <button type="reset">Reset</button>
+      <button>Confirm</button>
+      <p>
+        <a href="#">Login Instead</a>
+      </p>
+    </section>
+  </form>
+
+
+  </main>
+</body>
+
+</html>
