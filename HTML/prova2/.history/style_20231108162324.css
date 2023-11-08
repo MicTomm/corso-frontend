@@ -1,0 +1,24 @@
+body {
+  background-color: yellow;
+}
+
+.div-cont {
+  height: 300px;
+  width: 600px;
+}
+
+.div {
+  width: 300px;
+}
+
+#uno {
+  background-color: red;
+}
+
+#due {
+  background-color: green;
+}
+
+#tre {
+  background-color: blue;
+}

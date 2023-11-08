@@ -1,0 +1,20 @@
+body {
+  background-color: yellow;
+}
+
+div {
+  height: 300px;
+  width: 300px;
+}
+
+#uno {
+  background-color: red;
+}
+
+#due {
+  background-color: green;
+}
+
+#tre {
+  background-color: blue;
+}

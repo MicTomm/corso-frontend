@@ -1,0 +1,21 @@
+body {
+  background-color: yellow;
+}
+
+span {
+  width: 300px;
+  height: 300px;
+  /* display: inline-block; */
+}
+
+#uno {
+  background-color: red;
+}
+
+#due {
+  background-color: green;
+}
+
+#tre {
+  background-color: blue;
+}

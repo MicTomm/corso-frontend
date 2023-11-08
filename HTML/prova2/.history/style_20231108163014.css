@@ -1,0 +1,17 @@
+body {
+  background-color: yellow;
+}
+
+.div-default{
+  width: 300px;
+  height: 300px;
+}
+
+#outer-div-1{
+  height: 300px;
+  width: 600px;
+}
+
+#uno{
+ background-color: red;
+}
